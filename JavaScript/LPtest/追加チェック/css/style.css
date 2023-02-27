@@ -1,0 +1,273 @@
+/* 余計な余白の削除 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin: 0 auto;
+    margin-left: 50px;
+    align-items: center;
+}
+
+header nav{
+    margin-right: 50px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.mainpicture{
+    display: block;
+    width: calc(100% - 100px);
+    margin-right: 50px;
+    margin: 20px 50px 0 50px;
+}
+
+.section1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "MS Serif";
+    font-size: 40px;
+}
+
+.section1-2{
+    margin-top: 20px;
+    text-align: center;
+    font-family: serif;
+    font-weight: 500;
+}
+
+.section1-3{
+    margin-top: 40px;
+    text-align: center;
+    font-family: serif;
+    font-weight: 500;
+}
+
+
+
+.back {
+    position: relative;
+    width: 100%;  
+    }
+
+.backimg {
+    width: 100%;
+    }
+
+.image-container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div h1{
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+
+section div p{
+    text-align: center;
+    font-family: serif;
+}
+
+.head2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.top{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.bottom{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+.head3{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.sec2{
+    display: flex;
+}
+
+.left2{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.left2 p{
+    margin-top: 200px;
+}
+
+.right2{
+    margin-top: 20px;
+}
+
+
+
+
+
+.section3 p{
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+}
+
+.section3 strong{
+    font-size: 70px;
+    font-family: serif;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container h2{
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .block {
+    margin-bottom: 50px;
+  }
+  
+  .block:last-child {
+    margin-bottom: 0;
+  }
+
+  .block h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: Century;
+  }
+
+  .block1 h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: Century;
+  }
+
+  .block2 h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: Century;
+  }
+  
+  .block p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .block1 p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .block2 p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .block h3{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .block1 h3{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .block2 h3{
+    text-align: center;
+  }
+
+  .block2 h2{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .block2 p{
+    margin-top: 56px;
+  }
+  
+  .block img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .block1 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .block2 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+
+
