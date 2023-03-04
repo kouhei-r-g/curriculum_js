@@ -1,105 +1,474 @@
-/* スマートフォン用スタイル */
-@media screen and (max-width: 479px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        }
-        
-        .logo {
-        margin: 0;
-        }
-        
-        header nav {
-        margin: 20px 0;
-        }
-        
-        header nav ul {
-        flex-direction: column;
-        align-items: center;
-        }
-        
-        header nav ul li a {
-        margin: 10px 0;
-        }
-        
-        .mainpicture {
-        margin: 20px;
-        }
-        
-        .section1 {
-        font-size: 24px;
-        }
-        
-        .section1-2 {
-        font-size: 18px;
-        }
-        
-        .section1-3 {
-        margin-top: 20px;
-        }
-        
+@media screen and (max-width: 480px) {
+header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin-left: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header nav {
+  margin-right: 0;
+  text-align: center;
+}
+
+header nav ul {
+  flex-direction: column;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-align: left;
+  margin: 10px 0;
+}
+
+
+.section1 {
+  font-size: 25px;
+}
+
+.section1-2,
+.section1-3 {
+  font-size: 16px;
+}
 
 
 
 
 
-    .image-container{
-      position: static;
-      transform: none;
-      margin-top: 20px;
-    }
-    
-    .backimg {
-      height: auto;
-    }
+
+.back {
+  position: relative;
+  width: 100%;
+}
+
+.backimg {
+  width: 100%;
+  height: 1500px;
+}
+
+.image-container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.back h1 {
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+
+section div p {
+  text-align: center;
+  font-family: serif;
+  font-size: 16px;
+}
+
+.head2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.head2 p{
+  font-size: 20px;
+}
+
+.top {
+  display: block;
+}
   
-    div h1{
-      font-size: 32px;
-    }
-  
-    .head2{
-      font-size: 20px;
-    }
-  
-    .top{
-      display: block;
-    }
-  
-    .left{
-      width: 100%;
-      margin-left: 0;
-      margin-top: 20px;
-    }
-  
-    .right{
-      margin-top: 20px;
-    }
-  
-    .bottom{
-      width: 100%;
-      margin-left: 0;
-    }
-  
-    .head3{
-      font-size: 20px;
-      margin-top: 20px;
-    }
-  
-    .sec2{
-      display: block;
-    }
-  
-    .left2{
-      width: 100%;
-      margin-left: 0;
-    }
-  
-    .left2 p{
-      margin-top: 20px;
-    }
-  
-    .right2{
-      margin-top: 20px;
-    }
+
+
+.left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left p{
+  width: 90%;
+  text-align: left;
+  line-height: 1.5;
+  margin: 10px auto;
+}
+
+.right{
+  text-align: center;
+  margin: 10px auto;
+}
+
+.right img{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bottom {
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom p{
+  width: 90%;
+  text-align: left;
+  line-height: 1.5;
+  margin: 10px auto;
+}
+
+.head3 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.head3 p{
+  margin-top: 50px;
+  font-weight: 1000;
+  font-size: 20px;
+}
+
+.sec2 {
+  display: block;
+}
+
+.left2 {
+  width: 100%;
+  margin: 20px auto;
+  }
+
+.left2 p {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.right2 {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.right2 img{
+  margin: 20px auto;
+  width: 100%;
+}
+
+
+
+
+
+.block {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.block img {
+  margin-bottom: 50px;
+}
+
+.bg1::after,
+.bg2::after,
+.bg3::after,
+.bg4::after {
+  display: none;
+}
+
+
+
+.section3 p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.section3 strong {
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.block h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  font-family: Century;
+  text-align: center;
+}
+
+.block p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 2.5;
+  font-weight: 1000;
+  text-indent: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.block h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.block img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.bg2p {
+  height: 105px;
+}
+
+.bg1::after {
+  content: url(/images/ヒト.png);
+  display: block;
+  position: absolute;
+  right: 20%;
+  top: -180%;
+}
+
+.bg2::after {
+  content: url(/images/クツ.png);
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: -50%;
+}
+
+.bg3::after {
+  content: url(/images/ミズ.png);
+  display: block;
+  position: absolute;
+  right: 20%;
+  top: -200%;
+}
+
+.bg4::after {
+  content: url(/images/カバン.png);
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: -210%;
+}
+
+
+
+
+
+.container1 {
+  padding-top: 50px;
+  position: relative;
+}
+
+
+.conimg {
+  width: 100%;
+  height: 1500px;
+}
+
+.boxs {
+  width: 100%;
+  padding-bottom: 1700px;
+}
+
+.boxs p {
+  font-size: 10px;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.boxs h1 {
+  font-size: 30px;
+}
+
+.box {
+  height: 200px;
+  padding: 30px 10px;
+  margin-bottom: 100px;
+}
+
+.box img {
+  max-width: 40%;
+  height: 130px;
+}
+
+.boxleft {
+  max-width: 70%;
+  margin-bottom: 10px;
+}
+
+.boxleft h2{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+
+.box p {
+  max-width: 100%;
+  max-height: 70%;
+  font-size: 14px;
+
+}
+
+
+
+
+  .sec5title h1 {
+    font-size: 1.8rem;
   }
   
+  .sec5title p {
+    font-size: 1.2rem;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contop {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .conright,
+  .conleft{
+    max-width: 50%;
+  }
+
+
+  .conleft img,
+  .conright img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .conleft h2,
+  .conright h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .conleft p,
+  .conright p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pbox p {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  button{
+    /* width: 100px; */
+    max-width: 100%;
+  }
+
+  .formcontainer2 button{
+    margin-top: 100px;
+  }
+  
+  .formcontrol label,
+  .formcontrol input,
+  .formcontrol select,
+  .formcontrol textarea,
+  .formcontrol input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fbox {
+  padding-top: 100px;
+}
+.fp {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.fp p {
+  padding: 0 20px;
+}
+.tp h1{
+  font-size: 20px;
+}
+.tpr {
+  position: static;
+  margin-top: 20px;
+}
+.textbox {
+  justify-content: center;
+}
+.ins, .twi {
+  width: 100%;
+  height: 40px;
+}
+.ins p, .twi p {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+}
